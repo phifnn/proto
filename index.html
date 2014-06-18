@@ -1,0 +1,96 @@
+---
+
+---
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="cleartype" content="on">
+
+       <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">-->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+       <!-- <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">-->
+
+
+        <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+        
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <!--<meta name="apple-mobile-web-app-title" content="">
+        -->
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        
+        <!-- build:css assets/css/libs.css -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ratchet.min.css">       
+        <!-- endbuild -->
+        <!-- build:css assets/css/ehweb.css -->        
+        <!--<link rel="stylesheet" href="assets/css/ehweb.css">-->
+        <!-- endbuild -->
+    </head>
+    <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <!--<header class="bar bar-nav">
+      <h1 class="title">Ratchet</h1>
+    </header>-->
+
+    <nav class="bar bar-tab">
+  <a class="tab-item active" href="#">
+    <span class="icon icon-search"></span>
+  </a>
+  <a class="tab-item" href="#">
+    <span class="icon icon-person"></span>
+  </a>
+  <!--<a class="tab-item" href="#">
+    <span class="icon icon-search"></span>
+    <span class="tab-label">Search</span>
+  </a>-->
+  <a class="tab-item" href="#">
+    <span class="icon icon-gear"></span>
+  </a>
+</nav>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+      <p class="content-padded">Eager to know more about your team!</p>
+      <form class="content-padded">
+        <input type="text" placeholder="Your team name">
+        <button class="btn btn-primary btn-block btn-outlined">Search</button>
+        </form>
+    </div>
+
+      
+        <!--<section id="main-container"><h2>Hello World.</h2></section>-->
+        <!-- build:js assets/js/libs.js -->
+        <!--<script src="assets/js/libs/jquery-2.0.3.min.js"></script>
+        <script src="assets/js/libs/underscore-min.js"></script>
+        <script src="assets/js/libs/backbone-min.js"></script>-->
+        <script src="{{ site.baseurl }}/assets/js/libs/ratchet.min.js"></script>
+        <!-- endbuild -->   
+
+        <!-- build:js assets/js/app.js -->
+        <script src="{{ site.baseurl }}/assets/js/app/main.js"></script>           
+        <!-- endbuild -->   
+
+              
+    </body>
+</html>
+
+
+
+

@@ -1,0 +1,9 @@
+name: ""
+description: ""
+
+baseurl: "/proto"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
